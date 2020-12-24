@@ -1,3 +1,10 @@
+v1.2
+ - i should be crucified i think
+ - let's just not talk about this okay
+ - license file changed to a .txt because duh web development
+ - which wow can i just say, mit is such a cool license.
+ - also there's now a link to the changelog in the app. hello!
+
 v1.1
  - removed text in med-kit selector, added alt text. too lazy to add alt text to everything but I'll get there.
  - selections are now highlighted. please don't open the javascript it's genuinely dreadful.

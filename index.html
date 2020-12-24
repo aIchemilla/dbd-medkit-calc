@@ -10,30 +10,30 @@
 <body class="bg-dark text-white">
   <br><h1 class="display-1">Dead By Daylight Med-Kit Calculator</h1>
   <br>
-  <div class="container-sm text-center">
+  <div class="container-sm">
     <h1>Select One Med-Kit</h1>
     <div class="table-responsive rounded">
-    <table>
+    <table class="text-center">
       <thread>
         <tr>
-          <th id="mk16" scope="col" onClick="chooseBM(16)" class="selection bg-light" ><img src="img/campingAidKitEMK.png" alt="Camping Aid Kit/Emergency Med-Kit" class="img-fluid"></th>
-          <th id="mk24" scope="col" onClick="chooseBM(24)" class="selection bg-light"><img src="img/firstAidKit.png" alt="First Aid Kit" class="img-fluid"></th>
-          <th id="mk32" scope="col" onClick="chooseBM(32)" class="selection bg-light"><img src="img/rangerMed-Kit.png" alt="Ranger Med-Kit" class="img-fluid"></th>
+          <th id="mk16" scope="col" onClick="chooseBM(16)" class="selection" ><img src="img/campingAidKitEMK.png" alt="Camping Aid Kit/Emergency Med-Kit" class="img-fluid"><br><p class="lead">(16 Charges)</p></th>
+          <th id="mk24" scope="col" onClick="chooseBM(24)" class="selection"><img src="img/firstAidKit.png" alt="First Aid Kit" class="img-fluid"><br><p class="lead">(24 Charges)</p></th>
+          <th id="mk32" scope="col" onClick="chooseBM(32)" class="selection"><img src="img/rangerMed-Kit.png" alt="Ranger Med-Kit" class="img-fluid"><br><p class="lead">(32 Charges)</p></th>
         </tr>
       </thread>
     </table>
   </div>
   </div>
-  <div class="container-sm text-center">
+  <div class="container-sm">
     <h1>Select One Med-Kit Add-on</h1>
     <div class="table-responsive rounded">
     <table class="text-center">
       <thread>
-        <tr class="text-dark">
-          <th id="1ad8" scope="col" onClick="chooseAD(8)" class="selection bg-light"><img src="img/bandagesSAW.png" class="img-fluid"><br><p class="lead">Bandages/Self Adherent Wrap (+8)</p></th>
-          <th id="1ad12" scope="col" onClick="chooseAD(12)" class="selection bg-light"><img src="img/gauzeRoll.png" class="img-fluid"><br><p class="lead">Gauze Roll (+12)</p></th>
-          <th id="1ad16" scope="col" onClick="chooseAD(16)" class="selection bg-light"><img src="img/gelDressings.png" class="img-fluid"><br><p class="lead">Gel Dressings (+16)</p></th>
-          <th id="1ad-8" scope="col" onClick="chooseAD(-8)" class="selection bg-light"><img src="img/abdominalDressing.png" class="img-fluid"><br><p class="lead">Abdominal Dressing (-8)</p></th>
+        <tr>
+          <th id="1ad8" scope="col" onClick="chooseAD(8)" class="selection"><img src="img/bandagesSAW.png" class="img-fluid"><br><p class="lead">(+8 Charges)</p></th>
+          <th id="1ad12" scope="col" onClick="chooseAD(12)" class="selection"><img src="img/gauzeRoll.png" class="img-fluid"><br><p class="lead">(+12 Charges)</p></th>
+          <th id="1ad16" scope="col" onClick="chooseAD(16)" class="selection"><img src="img/gelDressings.png" class="img-fluid"><br><p class="lead">(+16 Charges)</p></th>
+          <th id="1ad-8" scope="col" onClick="chooseAD(-8)" class="selection"><img src="img/abdominalDressing.png" class="img-fluid"><br><p class="lead">(-8 Charges)</p></th>
         </tr>
       </thread>
     </table>
@@ -43,32 +43,32 @@
     <p>🡇 Show/Hide Additional Add-on Slot 🡇</p>
   </div>
 <div id="additionalMKA" class="d-none">
-  <div class="container-sm text-center">
+  <div class="container-sm">
     <h1>Select Another Med-Kit Add-on (if any)</h1>
     <div class="table-responsive rounded">
       <table class="text-center">
         <thread>
-          <tr class="text-dark">
-            <th id="2ad8" scope="col" onClick="chooseAD2(8)" class="selection bg-light"><img src="img/bandagesSAW.png" class="img-fluid"><br><p class="lead">Bandages/Self Adherent Wrap (+8)</p></th>
-            <th id="2ad12" scope="col" onClick="chooseAD2(12)" class="selection bg-light"><img src="img/gauzeRoll.png" class="img-fluid"><br><p class="lead">Gauze Roll (+12)</p></th>
-            <th id="2ad16" scope="col" onClick="chooseAD2(16)" class="selection bg-light"><img src="img/gelDressings.png" class="img-fluid"><br><p class="lead">Gel Dressings (+16)</p></th>
-            <th id="2ad-8" scope="col" onClick="chooseAD2(-8)" class="selection bg-light"><img src="img/abdominalDressing.png" class="img-fluid"><br><p class="lead ">Abdominal Dressing (-8)</p></th>
+          <tr>
+            <th id="2ad8" scope="col" onClick="chooseAD2(8)" class="selection"><img src="img/bandagesSAW.png" class="img-fluid"><br><p class="lead">(+8 Charges)</p></th>
+            <th id="2ad12" scope="col" onClick="chooseAD2(12)" class="selection"><img src="img/gauzeRoll.png" class="img-fluid"><br><p class="lead">(+12 Charges)</p></th>
+            <th id="2ad16" scope="col" onClick="chooseAD2(16)" class="selection"><img src="img/gelDressings.png" class="img-fluid"><br><p class="lead">(+16 Charges)</p></th>
+            <th id="2ad-8" scope="col" onClick="chooseAD2(-8)" class="selection"><img src="img/abdominalDressing.png" class="img-fluid"><br><p class="lead ">(-8 Charges)</p></th>
           </tr>
         </thread>
       </table><br>
   </div>
   </div>
 </div>
-  <div class="container-sm text-center">
+  <div class="container-sm">
     <h1>Select One Efficiency Perk</h1>
     <div class="table-responsive rounded">
     <table class="text-center">
       <thread>
-        <tr class="text-dark">
-          <th id="1pe33" scope="col" onClick="choosePE1(0.33)" class="selection bg-light"><img src="img/botanyKnowledge.png" class="img-fluid"><br><p class="lead">Botany Knowledge (33%)</p></th>
-          <th id="1pe20" scope="col" onClick="choosePE1(0.2)" class="selection bg-light"><img src="img/self-Care.png" class="img-fluid"><br><p class="lead">Self-Care (20%)</p></th>
-          <th id="1pe25" scope="col" onClick="choosePE1(0.25)" class="selection bg-light"><img src="img/streetwise.png" class="img-fluid"><br><p class="lead">Streetwise (25%)</p></th>
-          <th id="1pe0" scope="col" onClick="choosePE1(0)" class="selection bg-light"><img src="img/noPerk.png" class="img-fluid"><br><p class="lead">Remove Selection</p></th>
+        <tr>
+          <th id="1pe33" scope="col" onClick="choosePE1(0.33)" class="selection"><img src="img/botanyKnowledge.png" class="img-fluid"><br><p class="lead">(33% Increase)</p></th>
+          <th id="1pe20" scope="col" onClick="choosePE1(0.2)" class="selection"><img src="img/self-Care.png" class="img-fluid"><br><p class="lead">(20% Increase)</p></th>
+          <th id="1pe25" scope="col" onClick="choosePE1(0.25)" class="selection"><img src="img/streetwise.png" class="img-fluid"><br><p class="lead">(25% Increase)</p></th>
+          <th id="1pe0" scope="col" onClick="choosePE1(0)" class="selection"><img src="img/noPerk.png" class="img-fluid"><br><p class="lead">Remove Selection</p></th>
         </tr>
       </thread>
     </table>
@@ -82,32 +82,32 @@
     <p>🡇 Show/Hide Additional Perks 🡇</p>
   </div>
 <div id="additionalPerks" class="d-none">
-  <div class="container-sm text-center">
+  <div class="container-sm">
     <h2>Select A Second Efficiency Perk (if any)</h2>
     <div class="table-responsive rounded">
       <table class="text-center">
         <thread>
-          <tr class="text-dark">
-            <th id="2pe33" scope="col" onClick="choosePE2(0.33)" class="selection bg-light"><img src="img/botanyKnowledge.png" class="img-fluid"><br><p class="lead">Botany Knowledge (33%)</p></th>
-            <th id="2pe20" scope="col" onClick="choosePE2(0.2)" class="selection bg-light"><img src="img/self-Care.png" class="img-fluid"><br><p class="lead">Self-Care (20%)</p></th>
-            <th id="2pe25" scope="col" onClick="choosePE2(0.25)" class="selection bg-light"><img src="img/streetwise.png" class="img-fluid"><br><p class="lead">Streetwise (25%)</p></th>
-            <th id="2pe0" scope="col" onClick="choosePE2(0)" class="selection bg-light"><img src="img/noPerk.png" class="img-fluid"><br><p class="lead">Remove Selection</p></th>
+          <tr>
+            <th id="2pe33" scope="col" onClick="choosePE2(0.33)" class="selection"><img src="img/botanyKnowledge.png" class="img-fluid"><br><p class="lead">(33% Increase)</p></th>
+            <th id="2pe20" scope="col" onClick="choosePE2(0.2)" class="selection"><img src="img/self-Care.png" class="img-fluid"><br><p class="lead">(20% Increase)</p></th>
+            <th id="2pe25" scope="col" onClick="choosePE2(0.25)" class="selection"><img src="img/streetwise.png" class="img-fluid"><br><p class="lead">(25% Increase)</p></th>
+            <th id="2pe0" scope="col" onClick="choosePE2(0)" class="selection"><img src="img/noPerk.png" class="img-fluid"><br><p class="lead">Remove Selection</p></th>
           </tr>
         </thread>
       </table>
   </div>
   </div>
   <br>
-  <div class="container-sm text-center">
+  <div class="container-sm">
     <h2>Select A Third Efficiency Perk (if any)</h2>
     <div class="table-responsive rounded">
       <table class="text-center">
         <thread>
-          <tr class="text-dark">
-            <th id="3pe33" scope="col" onClick="choosePE3(0.33)" class="selection bg-light"><img src="img/botanyKnowledge.png" class="img-fluid"><br><p class="lead">Botany Knowledge (33%)</p></th>
-            <th id="3pe20" scope="col" onClick="choosePE3(0.2)" class="selection bg-light"><img src="img/self-Care.png" class="img-fluid"><br><p class="lead">Self-Care (20%)</p></th>
-            <th id="3pe25" scope="col" onClick="choosePE3(0.25)" class="selection bg-light"><img src="img/streetwise.png" class="img-fluid"><br><p class="lead">Streetwise (25%)</p></th>
-            <th id="3pe0" scope="col" onClick="choosePE3(0)" class="selection bg-light"><img src="img/noPerk.png" class="img-fluid"><br><p class="lead">Remove Selection</p></th>
+          <tr>
+            <th id="3pe33" scope="col" onClick="choosePE3(0.33)" class="selection"><img src="img/botanyKnowledge.png" class="img-fluid"><br><p class="lead">(33% Increase)</p></th>
+            <th id="3pe20" scope="col" onClick="choosePE3(0.2)" class="selection"><img src="img/self-Care.png" class="img-fluid"><br><p class="lead">(20% Increase)</p></th>
+            <th id="3pe25" scope="col" onClick="choosePE3(0.25)" class="selection"><img src="img/streetwise.png" class="img-fluid"><br><p class="lead">(25% Increase)</p></th>
+            <th id="3pe0" scope="col" onClick="choosePE3(0)" class="selection"><img src="img/noPerk.png" class="img-fluid"><br><p class="lead">Remove Selection</p></th>
           </tr>
         </thread>
       </table>
@@ -126,7 +126,7 @@
     <p>Click <a href="javascript:window.location.reload();">here</a> to reset the calculator.</p>
   </div>
 <hr>
-<p class="text-end"><small>Dead By Daylight Med-Kit Calculator by alchemilla, licensed under the <a href="LICENSE" class="text-reset">MIT License</a>.<br>Last Updated: v1.1 - 12/24/2020 - DBD Patch 4.4.2</small></p>
+<p class="text-end"><small>Dead By Daylight Med-Kit Calculator by alchemilla, licensed under the <a href="LICENSE.txt" class="text-reset">MIT License</a>.<br>Last Updated: <a href="changelog.txt" class="text-reset">v1.2</a> - 12/24/2020 - DBD Patch 4.4.2</small></p>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
