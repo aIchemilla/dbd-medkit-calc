@@ -1,0 +1,8 @@
+v1.1
+ - removed text in med-kit selector, added alt text. too lazy to add alt text to everything but I'll get there.
+ - selections are now highlighted. please don't open the javascript it's genuinely dreadful.
+ - the none perk option has been renamed to "remove selection" which feels somewhat more accurate.
+ - oh and i combined the brown and green medkits cuz. yeah. gotta work on the images.
+ - might remove the calc reset since it was a bandaid for the no selection bg thing but it's nice
+ - mit license link is now destylized. is that what you'd call it? idk, it looks nice okay.
+ - removed some old irrelevant stuff from the javascript. this is to compensate for me shoving approximately 257 pipe cleaners into it
